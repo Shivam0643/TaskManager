@@ -13,7 +13,7 @@ import { ChevronLeft, LogOut, Save, Shield, UserCircle, Lock} from "lucide-react
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const API_URL = "http://localhost:4000";
+const API_URL = "https://taskmanager-backend-n7qg.onrender.com";
 
 const Profile = ({ setCurrentUser, onLogout }) => {
   const [profile, setProfile] = useState({ name: "", email: "" });
