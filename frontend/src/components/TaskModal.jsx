@@ -14,7 +14,7 @@ import {
   X,
 } from "lucide-react";
 
-const API_BASE = "http://localhost:4000/api/task";
+const API_BASE = "https://taskmanager-backend-n7qg.onrender.com/api/task";
 
 const TaskModal = ({ isOpen, onClose, taskToEdit, onSave, onLogout }) => {
   const [taskData, setTaskData] = useState(DEFAULT_TASK);
